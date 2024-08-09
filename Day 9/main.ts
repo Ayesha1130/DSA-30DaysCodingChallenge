@@ -3,7 +3,7 @@
 *Problem Statement:* 👇 
 Implement a stack using TypeScript. The stack should have the following methods:
 1. push(item: T): void - Adds an item to the top of the stack.
-2. pop(): T | undefined - Removes and returns the item from the top of the stack. If the stack is empty, it should return undefined.
+2. shift(): T | undefined - Removes and returns the item from the top of the stack. If the stack is empty, it should return undefined.
 3. peek(): T | undefined - Returns the item at the top of the stack without removing it. If the stack is empty, it should return undefined.
 4. isEmpty(): boolean - Returns true if the stack is empty, otherwise false.
 
